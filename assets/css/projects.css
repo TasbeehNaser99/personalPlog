@@ -1,0 +1,59 @@
+.proCont{
+    background-image:none !important; 
+}
+
+.projectheader{
+    margin-bottom: 5%;
+    margin-right:10% ;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    border-radius: 50%;
+    border: 3px solid rgb(150, 3, 3);
+}
+.card{
+    border: 3px solid rgb(150, 3, 3);
+    box-shadow: 0 4px 24px rgba(34, 41, 47, 0.1);
+}
+.card-img-top{
+    border-bottom:3px solid rgb(150, 3, 3) ;
+    border-radius: 10px;
+    height: 200px;
+}
+.card-title{
+    color:#7f0606 ;
+}
+.subContsection{
+  box-shadow: 0 4px 24px rgba(34, 41, 47, 0.1);
+  padding-top: 5%; 
+  position: relative;
+}
+.subImg{
+    width: 200px;
+    height: 150px;
+    border-top-right-radius: 20%;
+    border-bottom-left-radius: 20%;
+    box-shadow: 0 4px 24px rgba(34, 41, 47, 0.1);
+    border: 3px solid rgb(150, 3, 3);
+}
+.subImg:hover{
+    border-top-right-radius:0;
+    border-bottom-left-radius:0;
+    border-top-left-radius:20%;
+    border-bottom-right-radius:20%;
+}
+
+.subImg2{
+margin-bottom: 20%;
+  
+}
+.imgGroup{
+    margin-top: 10%;
+    position: relative;
+}
+.projectsectiontitle{
+    font-family: Caveat;
+    margin-left: 10%;
+    color: #7f0606;
+    font-size: 50px;
+}

@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=DM+Sans:opsz,wght@9..40,300;9..40,400&family=Jacquard+24+Charted&family=Poppins:wght@300&display=swap');
+.logo{
+    height:60px;
+    width: 60px;
+    border-radius: 50%;
+    border: 1px solid rgb(150, 3, 3);
+}
+
+.bg-light {   
+    background-color:rgb(150, 3, 3)  !important;
+}
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+    color: #fff;
+}
+.nav-link{
+    color: #fff;
+    
+}
+.btn:hover {
+    background-color:rgb(150, 3, 3);
+    border-color:rgb(150, 3, 3);
+}
+.photograph{
+height: 200px;
+width: 200px;
+border-radius: 50%;
+border: 3px solid rgb(150, 3, 3);
+}
+.personal{
+    font-size: 200px;
+    font-family: Caveat; 
+    color: #7f0606;
+}
+.cont{ 
+    height: 90vh;
+    box-shadow: 0 4px 24px rgba(34, 41, 47, 0.1);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-image: url(../img/BlogBox.PNG);
+
+}
+.title{
+    /* margin-bottom: 10%; */
+    font-family: Caveat;    
+    font-size: 60px;
+    font-weight: bolder;
+}
+.subCont{
+  box-shadow: 0 4px 24px rgba(34, 41, 47, 0.1);
+  padding-top: 10%;
+}
+.nameandmajor,.titles{
+    color: rgb(150, 3, 3);
+}
+.hr{
+   border: 3px solid #7f0606 ;
+   background-color: #7f0606;
+   color: #7f0606;
+}
+i{
+    color: #7f0606;
+}
+a{
+    color: #000;
+    text-decoration: none;
+}
+.subconcatinfo{
+   margin-bottom: 0;
+}
+.subConta{
+    width:83%;
+    margin: auto;
+}
+.subsubtitle{
+    font-weight: 600;
+    color: #9c0f0f;
+    margin-bottom: 0;
+}
+footer{
+    background-color: #9c0f0f;
+    box-shadow: 0 4px 24px rgba(34, 41, 47, 0.1);
+}
+.nav-link.active{
+    color: #464545 !important;
+    text-shadow:2px 4px 24px rgba(116, 117, 117, 0.5) !important;
+}

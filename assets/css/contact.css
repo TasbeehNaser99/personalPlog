@@ -1,0 +1,18 @@
+::placeholder {
+    color:#7f0606 ;
+    opacity: .5; /* Firefox */
+  }
+  input,textarea{
+    border: none;
+    border-bottom:1px solid #7f0606;
+  }
+  .contactheader{
+    
+    margin-right:10% ;
+    position: absolute;
+    right: 0;
+    width: 400px;
+    height: 350px;
+    bottom: 0;
+ 
+}
