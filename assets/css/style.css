@@ -1,78 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=DM+Sans:opsz,wght@9..40,300;9..40,400&family=Jacquard+24+Charted&family=Poppins:wght@300&display=swap');
-.logo{
-    height:60px;
-    width: 60px;
-    border-radius: 50%;
-    border: 1px solid rgb(150, 3, 3);
-}
-ul .li{
-    list-style: none;
-    padding-inline: 8px;
-    color: #fff;
-}
-.navbar0{
-    padding: 10px;
-    background-color:rgb(150, 3, 3);
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    z-index: 1;
-}
-.leftSide{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.searchForm{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.searchForm input{
-    padding-block: 10px;
-    padding-inline: 20px;
-    border-radius: 10px;
-    border: none;
-}
-.button{
-    border-radius: 10px ;
-    color: #fff;
-    background-color: #464545;
-    padding-block: 12px;
-    padding-inline: 10px;
-    margin-left: 2%;
-    border: none;
-
-}
-.navlist{
-    display:flex;
-  
-}
-.container{
-    max-width: 1140px;
-    margin: auto;
-}
-
-
-.btn:hover {
-    background-color:rgb(150, 3, 3);
-    border-color:rgb(150, 3, 3);
-}
 .photograph{
 height: 200px;
 width: 200px;
 border-radius: 50%;
 border: 3px solid rgb(150, 3, 3);
 }
-.personal{
-    font-size: 180px;
-    font-family: Caveat; 
-    color: #7f0606;
-}
 .col {
-  
     padding: 15px;
     box-sizing: border-box;
+    flex: 41.6667%;
   }
 .cvSection{
     display: flex;
@@ -85,17 +20,6 @@ border: 3px solid rgb(150, 3, 3);
     justify-content: space-around;
     align-items: center;
 }
-.cont{ 
-    display: flex;
-    justify-content: center;
-    height: 100vh;
-    box-shadow: 0 4px 24px rgba(34, 41, 47, 0.1);
-    background-position: bottom;
-    background-repeat: no-repeat;
-    background-image: url(../img/BlogBox.PNG);
-
-}
-
 .subCont{
   box-shadow: 0 4px 24px rgba(34, 41, 47, 0.1);
   padding-top: 10%;
@@ -114,10 +38,6 @@ i{
 .fa-magnifying-glass{
     display: none;
 }
-a{
-    color: #000;
-    text-decoration: none;
-}
 .subconcatinfo{
    margin-bottom: 0;
    margin-top: 0;
@@ -131,29 +51,12 @@ a{
     color: #9c0f0f;
     margin-bottom: 0;
 }
-footer{
-    background-color: rgb(150, 3, 3);
-    box-shadow: 0 4px 24px rgba(34, 41, 47, 0.1);
+.h1{
+    font-size: 60px;
+    margin-block: 0;
 }
-.footer{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px;
-    color: #fff;
+.h2{
+ font-size: 30px;
+ margin-block: 0;
 }
-.nav-link.active{
-    color: #464545 !important;
-    text-shadow:2px 4px 24px rgba(116, 117, 117, 0.5) !important;
-}
-.navlist a{
-    color: #fff;
-}
-.col{
-    flex: 41.6667%;
-}
-.input{
-    margin-top: 8%;
-  padding: 10px;
-    width: 85%;
-}
+

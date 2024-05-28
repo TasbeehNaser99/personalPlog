@@ -1,11 +1,26 @@
 .proCont{
     background-image:url(../img/programeer.gif) !important; 
 }
-.projectCont{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+.sourceImg { grid-area: sourceImg; }
+.imgGroup { grid-area:imgGroup; }
+.projectCont1{
     padding-block: 10%;
+    display: grid;
+    grid-template-areas:
+    'sourceImg sourceImg sourceImg imgGroup imgGroup imgGroup'
+    'sourceImg sourceImg sourceImg imgGroup imgGroup imgGroup'
+    'sourceImg sourceImg sourceImg imgGroup imgGroup imgGroup';
+  gap: 10px;
+}
+.projectCont2{
+    padding-block: 10%;
+    display: grid;
+    grid-template-areas:
+    'imgGroup imgGroup imgGroup sourceImg sourceImg sourceImg'
+    'imgGroup imgGroup imgGroup sourceImg sourceImg sourceImg'
+    'imgGroup imgGroup imgGroup sourceImg sourceImg sourceImg'
+    ;
+  gap: 10px;
 }
 .card{
     border: 3px solid rgb(150, 3, 3);
@@ -24,6 +39,7 @@
 .card-title{
     color:#7f0606 ;
 }
+
 .btn-danger{
 padding-block: 12px;
 padding-inline: 20px;
@@ -32,6 +48,9 @@ color: #fff;
 border: none;
 border-radius: 5px;
 margin-bottom: 5px;
+}
+.figcaption{
+    margin-top:20px;
 }
 .subContsection{
   box-shadow: 0 4px 24px rgba(34, 41, 47, 0.1);

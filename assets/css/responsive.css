@@ -6,8 +6,32 @@
  .title{
   font-size: 40px !important;
  }
- .projectCont{
- display:block !important;
+ .projectCont1{
+ 
+
+  grid-template-areas:
+  'sourceImg sourceImg sourceImg sourceImg sourceImg sourceImg'
+  'sourceImg sourceImg sourceImg sourceImg sourceImg sourceImg'
+  'sourceImg sourceImg sourceImg sourceImg sourceImg sourceImg'
+  'imgGroup imgGroup imgGroup imgGroup imgGroup imgGroup'
+  'imgGroup imgGroup imgGroup imgGroup imgGroup imgGroup'
+  'imgGroup imgGroup imgGroup imgGroup imgGroup imgGroup'
+!important
+  ;
+
+}
+.projectCont2{
+ 
+  grid-template-areas:
+  'imgGroup imgGroup imgGroup imgGroup imgGroup imgGroup'
+  'imgGroup imgGroup imgGroup imgGroup imgGroup imgGroup'
+  'imgGroup imgGroup imgGroup imgGroup imgGroup imgGroup'
+  'sourceImg sourceImg sourceImg sourceImg sourceImg sourceImg'
+  'sourceImg sourceImg sourceImg sourceImg sourceImg sourceImg'
+  'sourceImg sourceImg sourceImg sourceImg sourceImg sourceImg'
+  !important
+  ;
+
 }
  .cont{ 
   height: 90vh;
@@ -57,14 +81,35 @@
      .searchForm input{
      display: none;
     }
+    .projectCont1{
+ 
+
+      grid-template-areas:
+      'sourceImg sourceImg sourceImg sourceImg sourceImg sourceImg'
+      'sourceImg sourceImg sourceImg sourceImg sourceImg sourceImg'
+      'sourceImg sourceImg sourceImg sourceImg sourceImg sourceImg'
+      'imgGroup imgGroup imgGroup imgGroup imgGroup imgGroup'
+      'imgGroup imgGroup imgGroup imgGroup imgGroup imgGroup'
+      'imgGroup imgGroup imgGroup imgGroup imgGroup imgGroup'
+    !important
+      ;
+    
+    }
+    .projectCont2{
+     
+      grid-template-areas:
+      'imgGroup imgGroup imgGroup imgGroup imgGroup imgGroup'
+      'imgGroup imgGroup imgGroup imgGroup imgGroup imgGroup'
+      'imgGroup imgGroup imgGroup imgGroup imgGroup imgGroup'
+      'sourceImg sourceImg sourceImg sourceImg sourceImg sourceImg'
+      'sourceImg sourceImg sourceImg sourceImg sourceImg sourceImg'
+      'sourceImg sourceImg sourceImg sourceImg sourceImg sourceImg'
+      !important
+      ;
+    
+    }
   }
   @media screen and (max-width: 1400px) and (min-width: 400px) {
-    .projectCont{
-      display:block !important;
-     }
-     /* .fa-magnifying-glass{
-      display: block;
-     } */
      .col{
   
       flex:100% !important;
