@@ -1,3 +1,5 @@
+@import url("navbar.css");
+@import url("footer.css");
 .proCont{
     background-image:url(../img/programeer.gif) !important; 
 }

@@ -1,6 +1,8 @@
+@import url("navbar.css");
+@import url("footer.css");
 ::placeholder {
     color:#7f0606 ;
-    opacity: .5; /* Firefox */
+    opacity: .5;
   }
   input,textarea{
     border: none;
