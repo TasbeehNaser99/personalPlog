@@ -7,49 +7,44 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Personal Blog</title>
     <link rel="stylesheet" href="vendor/bootstrap/bootstrap.min.css">
-    <link rel="stylesheet" href="vendor/fontawsome/all.min.css">
+    <link rel="stylesheet" href="assets/css/all.min.css" />
     <link rel="stylesheet" href="assets/css/responsive.css">
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
     <div class="container">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light position-sticky">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#"><img class="logo" src="assets/img/logo2.jpg" alt="logo" /></a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="projects.html">Projects</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="contact.html">Contact me</a>
-                        </li>
-                    </ul>
-                    <form class="d-flex">
-                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                        <button class="btn btn-secondary" type="submit">Search</button>
-                    </form>
-                </div>
-            </div>
-        </nav>
+<nav class="navbar0">
+    <div class="leftSide">
+        <a href="#"><img class="logo" src="assets/img/logo2.jpg" alt="logo" /></a>
+        <div>
+            <ul class="navlist">
+                <li class="li">
+                    <a class="nav-link0 active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="li">
+                    <a class="nav-link0" href="projects.html">Projects</a>
+                </li>
+                <li class="li">
+                    <a class="nav-link0" href="contact.html">Contact me</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <form class="searchForm">
+        <input  type="search" placeholder="Search" aria-label="Search">
+        <i class="fa-solid fa-magnifying-glass"></i>
+        <button class="button" type="submit">Search</button>
+       
+    </form>
 
+
+</nav>
         <header>
-            <div class="cont d-flex justify-content-center ">
+            <div class="cont">
              
                 <div>
-                    <p class="personal">Personal</p>
-                    <h1 class="title">
-                        Welcome in my
-                    </h1>
+                    <h1 class="personal">Personal</h1>
                   
                 </div>   
             </div>
@@ -57,7 +52,7 @@
         <section class="cv">
 
             <div class="subCont">
-                <div class="d-flex justify-content-around align-items-center">
+                <div class=" cvHeader">
                     <div class="nameandmajor">
                         <h1>Tasbeeh Naser</h1>
                         <h2>Computer Systems Engineering</h2>
@@ -65,18 +60,18 @@
                     <img src="assets/img/photograph.PNG" class="photograph" alt="photograph" />
                 </div>
                 <div class="subConta">
-                    <div class="row justify-content-around">
-                        <div class="col-md-5 ">
-                            <h5 class="titles">
+                    <div class="cvSection ">
+                        <div class="col">
+                            <h3 class="titles">
                                 HIGHLIGHTS
-                            </h5>
+                            </h3>
                             <hr class="hr">
                             <p>Web Development</p>
                         </div>
-                        <div class="col-md-5 ">
-                            <h5 class="titles">
+                        <div class="col">
+                            <h3 class="titles">
                                 CONCAT INFO
-                            </h5>
+                            </h3>
                             <hr class="hr">
                             <a class="subconcatinfo" href="mailto:tasbeehnaser2002@gmail.com">
                                 <i class="fa-solid fa-envelope"></i>
@@ -101,10 +96,10 @@
                                 <span>TasbeehNaser99</span>
                             </a>
                         </div>
-                        <div class="col-md-5  mt-3">
-                            <h5 class="titles">
+                        <div class="col">
+                            <h3 class="titles">
                                 EDUCATION
-                            </h5>
+                            </h3>
                             <hr class="hr">
                             <p class="subsubtitle">
                                 B.Sc. Computer Systems Engineering
@@ -124,10 +119,10 @@
                                 Average: 96.1%
                             </p>
                         </div>
-                        <div class="col-md-5  mt-3">
-                            <h5 class="titles">
+                        <div class="col">
+                            <h3 class="titles">
                                 COURSES
-                            </h5>
+                            </h3>
                             <hr class="hr">
                             <p class="subsubtitle">
                                 Front end Development
@@ -149,10 +144,10 @@
                                 Jan. 2024 - present.
                             </p>
                         </div>
-                        <div class="col-md-5  mt-3">
-                            <h5 class="titles">
+                        <div class="col">
+                            <h3 class="titles">
                                 PROJECTS
-                            </h5>
+                            </h3>
                             <hr class="hr">
                             <p class="subsubtitle">
                                 Student Exchange Management System
@@ -194,10 +189,10 @@
                               Aug. 2023
                             </p>
                         </div>
-                        <div class="col-md-5  mt-3">
-                            <h5 class="titles">
+                        <div class="col">
+                            <h3 class="titles">
                                 SKILLS
-                            </h5>
+                            </h3>
                             <hr class="hr">
                             <p class="subsubtitle">
                                 Languages
@@ -240,8 +235,8 @@
                 </div>
             </div>
         </section>
-        <footer class="p-3 text-white">
-            <div class="row align-items-center">
+        <footer>
+            <div class="footer">
              <div class="col-md-4">© 2024 All Rights Reserved.</div>
              <div class="col-md-4 text-center">
                 <img class="logo" src="assets/img/logo2.jpg" alt="logo" />
@@ -252,7 +247,7 @@
             </div>
         </footer>
     </div>
-    <script src="vendor/js/bootstrap.bundle.min.js"></script>
+  
 </body>
 
 </html>

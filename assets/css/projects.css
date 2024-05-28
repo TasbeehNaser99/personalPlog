@@ -1,27 +1,37 @@
 .proCont{
-    background-image:none !important; 
+    background-image:url(../img/programeer.gif) !important; 
 }
-
-.projectheader{
-    margin-bottom: 5%;
-    margin-right:10% ;
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    border-radius: 50%;
-    border: 3px solid rgb(150, 3, 3);
+.projectCont{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-block: 10%;
 }
 .card{
     border: 3px solid rgb(150, 3, 3);
+    width: 28rem;
     box-shadow: 0 4px 24px rgba(34, 41, 47, 0.1);
 }
 .card-img-top{
     border-bottom:3px solid rgb(150, 3, 3) ;
     border-radius: 10px;
     height: 200px;
+    width: 100%;
+}
+.card-body{
+    margin-left: 5px;
 }
 .card-title{
     color:#7f0606 ;
+}
+.btn-danger{
+padding-block: 12px;
+padding-inline: 20px;
+background-color: #7f0606;
+color: #fff;
+border: none;
+border-radius: 5px;
+margin-bottom: 5px;
 }
 .subContsection{
   box-shadow: 0 4px 24px rgba(34, 41, 47, 0.1);
@@ -46,10 +56,6 @@
 .subImg2{
 margin-bottom: 20%;
   
-}
-.imgGroup{
-    margin-top: 10%;
-    position: relative;
 }
 .projectsectiontitle{
     font-family: Caveat;

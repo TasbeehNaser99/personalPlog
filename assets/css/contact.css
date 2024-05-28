@@ -16,3 +16,12 @@
     bottom: 0;
  
 }
+.conCont{
+  background-image: url(../img/contact6.gif) !important;
+  background-size: contain;
+}
+.concat-me,.field{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
